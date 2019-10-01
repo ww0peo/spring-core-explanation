@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	   default-autowire="byType">
+		<!--
+			default-autowire是xml自动装配的属性，可以设置自动装配的模式，默认是no
+			主要是四种模式
+			1.no
+			2.byType
+			3.byName
+			4.constructor
+			如果设置了除了no以外的模式就可以通过属性和set方法来自动装配bean了，无需任何注解
+		-->
+
+
+
+</beans>
